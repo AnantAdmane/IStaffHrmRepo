@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-24T14:23:31Z" name="Default suite" finished-at="2024-09-24T14:23:49Z" duration-ms="18013">
+    <groups>
+      <group name="integrationTest">
+        <method signature="DownloadFileFromResourcesTest.downloadExcelFile()[pri:0, instance:com.bpl.hrm.resourcestest.DownloadFileFromResourcesTest@70cf32e3]" name="downloadExcelFile" class="com.bpl.hrm.resourcestest.DownloadFileFromResourcesTest"/>
+      </group> <!-- integrationTest -->
+    </groups>
+    <test started-at="2024-09-24T14:23:31Z" name="Default test" finished-at="2024-09-24T14:23:49Z" duration-ms="18013">
+      <class name="com.bpl.hrm.resourcestest.DownloadFileFromResourcesTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.bpl.hrm.resourcestest.DownloadFileFromResourcesTest@70cf32e3]" started-at="2024-09-24T14:23:31Z" name="configBS" finished-at="2024-09-24T14:23:31Z" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.bpl.hrm.resourcestest.DownloadFileFromResourcesTest@70cf32e3]" started-at="2024-09-24T14:23:31Z" name="configBC" finished-at="2024-09-24T14:23:35Z" duration-ms="3475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.bpl.hrm.resourcestest.DownloadFileFromResourcesTest@70cf32e3]" started-at="2024-09-24T14:23:35Z" name="configBM" finished-at="2024-09-24T14:23:38Z" duration-ms="2968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="downloadExcelFile()[pri:0, instance:com.bpl.hrm.resourcestest.DownloadFileFromResourcesTest@70cf32e3]" started-at="2024-09-24T14:23:38Z" name="downloadExcelFile" finished-at="2024-09-24T14:23:42Z" duration-ms="4375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadExcelFile -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.bpl.hrm.resourcestest.DownloadFileFromResourcesTest@70cf32e3]" started-at="2024-09-24T14:23:42Z" name="configAM" finished-at="2024-09-24T14:23:49Z" duration-ms="6649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.bpl.hrm.resourcestest.DownloadFileFromResourcesTest@70cf32e3]" started-at="2024-09-24T14:23:49Z" name="configAC" finished-at="2024-09-24T14:23:49Z" duration-ms="506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.bpl.hrm.resourcestest.DownloadFileFromResourcesTest@70cf32e3]" started-at="2024-09-24T14:23:50Z" name="configAS" finished-at="2024-09-24T14:23:50Z" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.bpl.hrm.resourcestest.DownloadFileFromResourcesTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

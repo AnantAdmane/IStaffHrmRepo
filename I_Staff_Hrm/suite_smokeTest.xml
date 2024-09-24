@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<groups>
+<run>
+<include name="smokeTest"></include>
+</run>
+</groups>
+<listeners>
+<listener class-name="com.bpl.hrm.listenerutility.ListImpClass"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.bpl.hrm.employeetest.AssignProjectToEmployeeTest"/>
+      <class name="com.bpl.hrm.payrolltest.UpdatePayrollTest"/>
+      <class name="com.bpl.hrm.projectstest.ProjectsTest"/>
+      <class name="com.bpl.hrm.settingstest.BearerTokenGenerationTest"/>
+      <class name="com.bpl.hrm.resourcestest.DownloadFileFromResourcesTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
