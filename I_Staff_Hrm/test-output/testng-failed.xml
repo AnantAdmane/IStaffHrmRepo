@@ -3,17 +3,18 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.bpl.hrm.resourcestest.DownloadFileFromResourcesTest">
+      <class name="com.bpl.hrm.employeetest.AssignProjectToEmployeeTest">
         <methods>
-          <include name="downloadExcelFile"/>
+          <include name="assignProjectToEmployee"/>
           <include name="configBS"/>
           <include name="configBC"/>
           <include name="configAM"/>
           <include name="configBM"/>
           <include name="configAS"/>
           <include name="configAC"/>
+          <include name="modifyEmpDetailsTest"/>
         </methods>
-      </class> <!-- com.bpl.hrm.resourcestest.DownloadFileFromResourcesTest -->
+      </class> <!-- com.bpl.hrm.employeetest.AssignProjectToEmployeeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
